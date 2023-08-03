@@ -1,5 +1,5 @@
 /*import logo from './logo.svg';*/
-import UrlValidator from './components/UrlValidator/UrlValidator';
+/*import UrlValidator from './components/UrlValidator/UrlValidator';
 import './App.css';
 
 function App() {
