@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import UrlValidator from './component/UrlValidator/UrlValidator.jsx';
 import './App.css';
 
 function App() {
