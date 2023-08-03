@@ -60,7 +60,7 @@ const UrlValidator = () => {
         if(tmp_msg==="") {
             console.log("success");
             let link = domain + convertToPath(path)
-            if (Object.keys(body).length != 0 && method === "GET") link = link + convertJson(body);
+            if (Object.keys(body).length !== 0 && method === "GET") link = link + convertJson(body);
             console.log(typeof link);
             document.getElementById("message").textContent = link.trim();
             console.log(link.trim());
